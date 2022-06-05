@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style/normalize.css">
   <link rel="stylesheet" href="style/style.css">
 </head>
-<body class="">
+<body>
 <!-- SITE_HEADER -->
 <header class="site-header">
   <div class="site-header-container container">
@@ -21,6 +21,22 @@
     </button>
   </div>
 </header>
+<!-- MAIN-CONTENT -->
+<main class="main-content">
+  <div class="container">
+    <form class="filtes" action="https://echo.htmlacademy.ru" method="GET">
+      <input class="filters-search-input" type="search" name="search" placeholder="Search for a country…" aria-label="country name" required>
+      <select class="filters-region-select" name="region" aria-label="regions">
+        <option selected disabled>Filter by Region</option>
+        <option>Africa</option>
+        <option>America</option>
+        <option>Asia</option>
+        <option>Europe</option>
+        <option>Oceania</option>
+      </select>
+    </form>
+  </div>
+</main>
 <script src="js/main.js"></script>
 </body>
 </html>
